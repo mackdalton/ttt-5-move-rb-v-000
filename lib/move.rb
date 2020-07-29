@@ -11,7 +11,8 @@ def input_to_index(input)
   input = input.to_i - 1
 end
 
-board = ["","","","","","","","",""]
+
 def move(board, input, character = "X" )
+ board = ["","","","","","","","",""]
   return board[input] = character
 end
